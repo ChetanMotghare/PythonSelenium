@@ -22,3 +22,18 @@ cons = Constructor()
 cons.method("Chetan")
 cons.addition(100,200)
 
+#constructor example 2
+
+class Emp:
+
+    def __init__(self,empid,name,sal):
+        self.empid = empid
+        self.name  = name
+        self.sal   = salk
+    def display(self):
+        print("EMP_ID :: {}".format(self.empid))
+        print("NAME :: {}".format(self.name))
+        print("SAL :: {}".format(self.sal))
+
+emp1 = Emp(10,"Chetan",15000)
+emp1.display()
